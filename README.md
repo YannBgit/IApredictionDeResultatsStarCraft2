@@ -5,10 +5,12 @@ Réalisé par :
 - Yann BARBIER 21800844
 - Fanoa RAZAFIMBELO 22105665
 
-Le programme utilise un GPU de google pour entraîner le réseau de neurones.
+Idée générale :
+Le réseau de neurones est entraînés sur des milliers de replays parsés à chaque instant.
+Elle doit déterminer qui va gagner étant donné un instant donné d'une partie.
 
 Idée de parseur de replays :
 https://github.com/ggtracker/sc2reader
 
-Machines d'entraînement disponibles sur google colab :
+Le programme utilise un GPU de google colab pour entraîner le réseau de neurones :
 https://colab.research.google.com/

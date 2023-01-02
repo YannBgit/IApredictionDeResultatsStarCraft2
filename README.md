@@ -6,11 +6,10 @@ Réalisé par :
 - Fanoa RAZAFIMBELO 22105665
 
 Idée générale :
-Le réseau de neurones est entraînés sur des milliers de replays parsés à chaque instant.
-Elle doit déterminer qui va gagner étant donné un instant donné d'une partie.
+Le réseau de neurones est entraînés sur des milliers de replays parsés préalablement par un parseur de replays.
+L'IA doit déterminer le gagnant étant donné l'état d'une partie à un instant donné.
 
-Idée de parseur de replays :
-https://github.com/ggtracker/sc2reader
+Parseur de replays :
+https://github.com/YannBgit/SC2replayDatasetGenerator
 
-Le programme utilise un GPU de google colab pour entraîner le réseau de neurones :
-https://colab.research.google.com/
+Plus de détails dans le notebook situé au même endroit que ce README.
